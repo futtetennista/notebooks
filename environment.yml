@@ -1,0 +1,13 @@
+name: colab-like
+channels:
+- defaults
+- conda-forge
+dependencies:
+  - python >=3.6.0
+  - jupyter
+  - seaborn
+  - pip
+  - pip:
+    - numpy >=1.21.2
+    - matplotlib >=3.2.2
+    - scikit-learn >=1.0.2
